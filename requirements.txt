@@ -1,0 +1,11 @@
+torch>=1.9.0
+pytorch_lightning>=1.6.0,<2.0.0
+numpy>=1.19.0
+scikit-learn>=0.24.0
+tqdm>=4.50.0
+tensorboard>=2.5.0
+scapy>=2.4.5
+# Optional: for ONNX/TensorRT model acceleration
+# onnx>=1.10.0
+# tensorrt>=8.0.0
+# pycuda>=2021.1

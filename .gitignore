@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+eggs/
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# PyTorch
+*.pth
+*.pt
+
+# TensorBoard logs
+*/version_*/
+**/version_*/
+span_2seg_cls_log/
+
+# Model checkpoints (large files)
+*.ckpt
+*.bin
+*.onnx
+*.trt
+
+# Dataset files (large binary files)
+*.pickle
+*.npy
+*.pcap
+*.pcapng
+
+# OS generated
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Temporary
+*.log
+*.tmp
+generate_manual.py
+PacketPatch_复现手册.docx
