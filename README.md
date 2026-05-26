@@ -19,7 +19,7 @@ PacketPatch is a practical scheme for generating adversarial network packets aga
 
 ## Architecture
 
-![1779787358272](image/README/1779787358272.png)
+![1779787785696](image/README/1779787785696.png)
 
 ### PatchGenerator Workflow
 
@@ -192,11 +192,7 @@ Reconstructs consecutive masked byte spans using bidirectional context. This equ
 
 ### Defense Effectiveness (DSR: Defense Success Rate)
 
-| Dataset  | DeepPacket | LeNet  | DataNet | TSCRNN | ET-BERT |
-| -------- | ---------- | ------ | ------- | ------ | ------- |
-| ISCX-TOR | 25.33%     | 42.99% | 26.59%  | 25.69% | 0.66%   |
-| ISCX-VPN | 57.37%     | 84.81% | 70.78%  | 40.76% | 18.99%  |
-| USTC     | 69.59%     | 86.22% | 73.99%  | 95.25% | 48.15%  |
+![1779788145231](image/README/1779788145231.png)
 
 ### Time Overhead
 
@@ -211,11 +207,7 @@ Reconstructs consecutive masked byte spans using bidirectional context. This equ
 
 PacketPatch outperforms the following white-box baseline methods under strict black-box assumptions:
 
-| Method | Type                       | Reference                           |
-| ------ | -------------------------- | ----------------------------------- |
-| ANT    | Gradient-based (UAP)       | Sadeghzadeh et al., IEEE TNSM 2021  |
-| A-IOT  | Saliency-based (CAM)       | Kotak et al., IEEE IoT-J 2023       |
-| UTAA   | Gradient-based (Universal) | Ding et al., Computer Networks 2024 |
+![1779788259065](image/README/1779788259065.png)
 
 ## Citation
 
