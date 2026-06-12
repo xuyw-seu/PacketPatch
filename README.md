@@ -15,11 +15,11 @@ PacketPatch is a practical scheme for generating adversarial network packets aga
 - **User-Agnostic**: Perturbation generation relies solely on current packet features, without user behavior history
 - **Real-Time Efficiency**: Single forward pass generation, average latency ~10 ms per packet
 - **Controllable Bandwidth Overhead**: Perturbation length ≤ 10% of original packet size
-- **Packet Validity & Recoverability**: Symmetric proxy architecture ensures packets pass integrity checks and can be perfectly restored at the receiver
+- **Packet Validity & Recovability**: Symmetric proxy architecture ensures packets pass integrity checks and can be perfectly restored at the receiver
 
 ## Architecture
 
-![1779787785696](image/README/1779787785696.png)
+![Architecture](image/Architecture.png)
 
 ### PatchGenerator Workflow
 
@@ -192,7 +192,7 @@ Reconstructs consecutive masked byte spans using bidirectional context. This equ
 
 ### Defense Effectiveness (DSR: Defense Success Rate)
 
-![1779788145231](image/README/1779788145231.png)
+![Defense Effectiveness](image/Defense%20Effectiveness.png)
 
 ### Time Overhead
 
@@ -203,11 +203,9 @@ Reconstructs consecutive masked byte spans using bidirectional context. This equ
 | Packet Reconstruction   | 0.398            |
 | **Total**         | **10.078** |
 
-## Comparison with Baseline Methods
-
 PacketPatch outperforms the following white-box baseline methods under strict black-box assumptions:
 
-![1779788259065](image/README/1779788259065.png)
+![Comparison with Baseline Methods](image/Comparison%20with%20Baseline%20Methods.png)
 
 ## Citation
 
